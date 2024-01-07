@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:ital,wght@0,600;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* .main-container{
+    border: 2px solid black;
+
+    background: peachpuff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container{
+    border: 2px solid black;
+
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container h2{
+    padding-top: 130px;
+    animation: changecolor 5s infinite alternate;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+button{
+    margin-top: 40px;
+    color: gray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@keyframes changecolor{
+    0%{
+        color: gold;
+    }
+
+    20%{
+        color: pink;
+    }
+
+    40%{
+        color: greenyellow;
+    }
+
+    60%{
+        color: orange;
+    }
+
+    80%{
+        color: olivedrab;
+    }
+
+    100%{
+        color: orangered;
+    }
+}
